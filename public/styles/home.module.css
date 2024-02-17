@@ -1,0 +1,46 @@
+.background {
+    background-color: #f5f5f5;
+    padding: 20px;
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    background-position:inherit;
+    margin: 0px 0px 0px 0px;
+  }
+ 
+
+  .centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 0.8;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+    opacity: 1;
+  }
+  
+  .searchButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 1;
+  }
